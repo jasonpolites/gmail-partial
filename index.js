@@ -4,7 +4,7 @@ var google = require('googleapis');
 var gmail = google.gmail('v1');
 var mimelib = require("mimelib");
 var googleAuth = require('google-auth-library');
-var MailParser = require("mailparser").MailParser;
+// var MailParser = require("mailparser").MailParser;
 var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';

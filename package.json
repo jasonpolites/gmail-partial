@@ -1,0 +1,29 @@
+{
+  "name": "gmail_partial",
+  "version": "1.0.0",
+  "description": "Extracts and re-constitutes message/partial emails from a Gmail account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonpolites/gmail-partial.git"
+  },
+  "keywords": [
+    "message",
+    "partial",
+    "gmail"
+  ],
+  "author": "Jason Polites",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jasonpolites/gmail-partial/issues"
+  },
+  "homepage": "https://github.com/jasonpolites/gmail-partial#readme",
+  "dependencies": {
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.0.5",
+    "mimelib": "^0.2.19"
+  }
+}
