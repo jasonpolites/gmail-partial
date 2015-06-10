@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/jasonpolites/gmail-partial#readme",
   "dependencies": {
+    "chai": "^3.0.0",
     "google-auth-library": "^0.9.6",
     "googleapis": "^2.0.5",
-    "mimelib": "^0.2.19"
+    "mimelib": "^0.2.19",
+    "mocha": "^2.2.5"
   }
 }
